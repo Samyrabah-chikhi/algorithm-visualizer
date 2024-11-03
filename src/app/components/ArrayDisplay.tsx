@@ -18,7 +18,7 @@ const ArrayDisplay = ({ array , smallestValue , currentIndex , comparisonIndex }
         color = smallestValue==index ? "bg-orange-500" : color
         return (
           <li
-            className={` ${color} shadow-md m-1 h-8 flex-grow text-center` }
+            className={` ${color} shadow-md m-1 h-8 rounded-lg flex-grow text-center` }
             key={index}
           >
             {value}

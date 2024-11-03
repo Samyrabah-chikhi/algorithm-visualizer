@@ -1,4 +1,4 @@
-import React, { InputHTMLAttributes, SetStateAction } from "react";
+import React, { SetStateAction } from "react";
 
 interface InputProps {
   size: number;
