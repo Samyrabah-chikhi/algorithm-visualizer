@@ -33,7 +33,7 @@ const NavBar = ({
           </button>
         </li>
         <li className="ml-8 mr-16 mt-8">
-          <h2 className="ml-1 mb-2 text-lg font-bold text-red-500">Array size: {size}</h2>
+          <h2 className="ml-1 mb-2 text-lg font-bold text-fuchsia-800">Array size: {size}</h2>
           <Input size={size} setSize={setSize} min={min} max={max} />
         </li>
       </ul>

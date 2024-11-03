@@ -45,6 +45,9 @@ export default function Home() {
         setArray([...nums]);
       }
     }
+    setComparisonIndex(-1)
+    setCurrentIndex(-1)
+    setSmallestValue(-1)
   };
 
   const min = 4;
